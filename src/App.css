@@ -1,0 +1,20 @@
+body {
+    background: url('/src/assets/images/images-bg.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: background 0.3s ease-in-out;
+}
+body.dark {
+    background: url('/src/assets/images/images-bg-dark.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+*{
+    box-sizing: border-box;
+  }
